@@ -23,11 +23,11 @@ while True:
         cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 255), 1)
     # Display
     cv2.imshow('img', img)
+    cv2.imwrite('Screenshot/face_screenshot.jpg',img)
     # Stop if escape|enter key is pressed
     k = cv2.waitKey(30) & 0xff
 
     if (cv2.waitKey(1) == 13) | (k == 27): #13 for return (enter) key
-        cv2.imwrite('Screenshot/face_screenshot.jpg',img)
         break
 # Release the VideoCapture object
 cap.release()
