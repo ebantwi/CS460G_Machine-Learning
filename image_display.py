@@ -11,7 +11,7 @@ def display_image(image, label, time_to_display):
     plt.close()
 
 def main():
-    display_image('./PrivateTest_1221822.jpg', 'angry', 3)
+    display_image('./Screenshot/face_screenshot.jpg', 'angry', 3)
 
 if __name__ == "__main__":
     main()
