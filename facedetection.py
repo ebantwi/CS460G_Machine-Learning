@@ -3,8 +3,9 @@ import numpy as np, cv2, os
 if not os.path.isdir('Screenshot'):
     os.makedirs('Screenshot')
 
-cv2_base_directory = os.path.dirname(os.path.abspath(cv2.__file__))
-classifier_path = cv2_base_directory+'\\data\\haarcascade_frontalface_default.xml'
+#cv2_base_directory = os.path.dirname(os.path.abspath(cv2.__file__))
+#classifier_path = cv2_base_directory+'\\data\\haarcascade_frontalface_default.xml'
+classifier_path = 'haarcascades/haarcascade_frontalface_default.xml'
 
 face_classifier = cv2.CascadeClassifier(classifier_path)
 
