@@ -5,9 +5,6 @@ from torchvision.transforms import Compose
 import torch
 from torch import nn
 from torchvision.transforms import ToTensor
-from torchvision.transforms import Resize
-from torchvision.transforms import PILToTensor
-from PIL import Image
 
 
 model = nn.Sequential(
