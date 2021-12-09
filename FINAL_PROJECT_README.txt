@@ -4,3 +4,5 @@ facedetection.py: This is the code that runs the face detection and displays the
 Finalmodel40: this is the files for th weights of our CNN
 archive: this contains our training and testing data
 image_display.py: contains a helper function for facedetection.py
+Final Project Report - Joseph Alverson, Eugene Antwi Boasiako, Noah Bohannon.PDF:
+provides the report we wrote about the project
